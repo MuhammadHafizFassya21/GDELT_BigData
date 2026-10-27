@@ -1,0 +1,8 @@
+# Dependensi Inti Proyek GDELT_BigData
+# Modul disesuaikan langsung dengan import yang digunakan pada app.py
+# (Catatan: Dependensi PySpark akan ditambahkan pada tahap integrasi Spark)
+
+streamlit>=1.35.0
+duckdb>=1.0.0
+pandas>=2.0.0
+plotly>=5.18.0

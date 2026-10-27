@@ -1,0 +1,45 @@
+# ==========================================
+# GDELT_BigData - .dockerignore
+# ==========================================
+
+# Version control
+.git
+.gitignore
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Database DuckDB
+*.db
+*.db.wal
+*.duckdb
+gdelt.db
+
+# Data mentah, arsip, dan ekspor besar
+raw_data/
+analytics/
+*.csv
+*.zip
+*.tar
+*.gz
+processed_urls.txt
+
+# Log dan file sementara
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dokumentasi & IDE
+.vscode/
+.idea/
+README.md

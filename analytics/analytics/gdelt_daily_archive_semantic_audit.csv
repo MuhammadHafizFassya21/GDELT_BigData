@@ -1,0 +1,2 @@
+archive_date,rows,columns,unique_ids,invalid_sqldate,invalid_dateadded,sqldate_min,sqldate_max,dateadded_min,dateadded_max,ids_already_in_database,database_modified
+20250612,136620,58,136620,0,0,2015-06-15,2025-06-12,2025-06-12,2025-06-12,0,False

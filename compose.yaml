@@ -1,0 +1,13 @@
+services:
+  gdelt-dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gdelt-dashboard
+    ports:
+      - "127.0.0.1:8502:8501"
+    environment:
+      - DB_PATH=/data/gdelt.db
+    volumes:
+      - ./gdelt.db:/data/gdelt.db:ro
+    restart: unless-stopped

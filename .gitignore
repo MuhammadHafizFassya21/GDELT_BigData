@@ -1,0 +1,58 @@
+# ==========================================
+# GDELT_BigData - .gitignore
+# ==========================================
+
+# Database lokal DuckDB
+*.db
+*.db.wal
+*.duckdb
+gdelt.db
+
+# Data mentah, arsip, dan ekspor besar
+raw_data/
+*.zip
+*.tar
+*.gz
+*.export.CSV
+*.export.csv
+gdelt_clean.csv
+processed_urls.txt
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# IDE & Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker / Container artifacts lokal
+*.log
+docker-compose.override.yml
